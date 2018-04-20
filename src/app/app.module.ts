@@ -3,9 +3,13 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-
 import { IndustrialPage } from '../pages/industrial/industrial';
 import { ResourcePage } from '../pages/resource/resource';
+import { AgriculturalPage } from '../pages/agricultural/agricultural';
+import { TransportPage } from '../pages/transport/transport';
+import { TouristPage } from '../pages/tourist/tourist';
+import { EducationalPage } from '../pages/educational/educational';
+import { HumanPage } from '../pages/human/human';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -14,8 +18,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
+    ResourcePage,
     IndustrialPage,
-    ResourcePage
+    AgriculturalPage,
+    TransportPage,
+    TouristPage,
+    EducationalPage,
+    HumanPage
   ],
   imports: [
     BrowserModule,
@@ -25,8 +34,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
+    ResourcePage,
     IndustrialPage,
-    ResourcePage
+    AgriculturalPage,
+    TransportPage,
+    TouristPage,
+    EducationalPage,
+    HumanPage
   ],
   providers: [
     StatusBar,

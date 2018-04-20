@@ -5,6 +5,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { HomePage } from '../pages/home/home';
 import { IndustrialPage } from '../pages/industrial/industrial';
 import { ResourcePage } from '../pages/resource/resource';
+import { AgriculturalPage } from '../pages/agricultural/agricultural';
+import { TransportPage } from '../pages/transport/transport';
+import { TouristPage } from '../pages/tourist/tourist';
+import { EducationalPage } from '../pages/educational/educational';
+import { HumanPage } from '../pages/human/human';
 
 
 @Component({
@@ -23,8 +28,13 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'О НАШЕМ РЕГИОНЕ', component: HomePage },
-      { title: 'РЕСУРСНЫЙ ПОТЕНЦИАЛ', component: IndustrialPage },
-      { title: 'РЕСУРСНЫЙ ПОТЕНЦИАЛ', component: ResourcePage }
+      { title: 'РЕСУРСНЫЙ ПОТЕНЦИАЛ', component: ResourcePage },
+      { title: 'ПРОМЫШЛЕННЫЙ ПОТЕНЦИАЛ', component: IndustrialPage },
+      { title: 'CЕЛЬСКО-ХОЗЯЙСТВЕННЫЙ ПОТЕНЦИАЛ', component: AgriculturalPage },
+      { title: 'ТРАНСПОРТНО-ИНФРАСТРУКТУРНЫЙ ПОТЕНЦИАЛ', component: TransportPage },
+      { title: 'ЭТНОКУЛЬТУРНЫЙ И ТУРИСТИЧЕСКИЙ ПОТЕНЦИАЛ', component: TouristPage },
+      { title: 'НАУЧНО-ОБРАЗОВАТЕЛЬНЫЙ ПОТЕНЦИАЛ', component: EducationalPage },
+      { title: 'ЧЕЛОВЕЧЕСКИЙ ПОТЕНЦИАЛ', component: HumanPage }
     ];
 
   }
