@@ -9,19 +9,19 @@ INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifes
 INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
 INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:1-14:12
 	package
-		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:98-124
+		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:102-136
 		INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:70-97
+		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
 		INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml
 	android:hardwareAccelerated
 		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
 	xmlns:android
-		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:125-183
+		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:137-195
 	android:versionCode
-		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:46-69
+		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
 		INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml
 supports-screens
@@ -52,7 +52,7 @@ ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.x
 		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
 	android:icon
 		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
-activity#io.ionic.starter.MainActivity
+activity#io.khks_presentation.app.MainActivity
 ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
 	android:label
 		ADDED from C:\khks-app\khks-app\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
