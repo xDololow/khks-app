@@ -12,11 +12,11 @@
 
 <ion-content padding style="background-color: transparent; background-image: url('img/bg.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;">
   <br>
-  <button ion-button block round>ЭНЕРГЕТИКА</button>
+  <button ion-button block round (click)="openEnergModal()">ЭНЕРГЕТИКА</button>
   <br>
-  <button ion-button block round>МЕТАЛЛУРГИЯ</button>
+  <button ion-button block round (click)="openMetalModal()">МЕТАЛЛУРГИЯ</button>
   <br>
-  <button ion-button block round>УГОЛЬНАЯ ПРОМЫШЛЕННОСТЬ</button>
+  <button ion-button block round (click)="closeCoalModal()">УГОЛЬНАЯ ПРОМЫШЛЕННОСТЬ</button>
   <br>
-  <button ion-button block round>ПИЩЕВАЯ И ПЕРЕРАБАТЫВАЮЩАЯ ПРОМЫШЛЕННОСТЬ</button>
+  <button ion-button block round (click)="closeFoodModal()">ПИЩЕВАЯ И ПЕРЕРАБАТЫВАЮЩАЯ ПРОМЫШЛЕННОСТЬ</button>
 </ion-content>

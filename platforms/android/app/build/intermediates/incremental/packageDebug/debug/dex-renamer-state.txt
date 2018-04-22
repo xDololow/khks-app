@@ -1,4 +1,4 @@
-#Sat Apr 21 20:50:49 KRAT 2018
+#Sun Apr 22 22:25:26 KRAT 2018
 base.0=C\:\\khks-app\\khks-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
 file.0=C\:\\khks-app\\khks-app\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

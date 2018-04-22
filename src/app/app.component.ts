@@ -11,7 +11,6 @@ import { TouristPage } from '../pages/tourist/tourist';
 import { EducationalPage } from '../pages/educational/educational';
 import { HumanPage } from '../pages/human/human';
 
-
 @Component({
   templateUrl: 'app.html'
 })
@@ -35,6 +34,7 @@ export class MyApp {
       { title: 'ЭТНОКУЛЬТУРНЫЙ И ТУРИСТИЧЕСКИЙ ПОТЕНЦИАЛ', component: TouristPage },
       { title: 'НАУЧНО-ОБРАЗОВАТЕЛЬНЫЙ ПОТЕНЦИАЛ', component: EducationalPage },
       { title: 'ЧЕЛОВЕЧЕСКИЙ ПОТЕНЦИАЛ', component: HumanPage }
+
     ];
 
   }

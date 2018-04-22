@@ -9,11 +9,11 @@
 
 <ion-content padding style="background-color: transparent; background-image: url('img/bg.jpg'); background-position: center; background-size: cover; background-repeat: no-repeat;">
   <br>
-  <button ion-button block round>ЗЕМЕЛЬНЫЕ РЕСУРСЫ</button>
+  <button ion-button block round (click)="openLandModal()">ЗЕМЕЛЬНЫЕ РЕСУРСЫ</button>
   <br>
-  <button ion-button block round>ЛЕСНЫЕ РЕСУРСЫ</button>
+  <button ion-button block round (click)="openForestModal()">ЛЕСНЫЕ РЕСУРСЫ</button>
   <br>
-  <button ion-button block round>ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</button>
+  <button ion-button block round (click)="closeMineralModal()">ПОЛЕЗНЫЕ ИСКОПАЕМЫЕ</button>
   <br>
-  <button ion-button block round>ВОДНО-БИОЛОГИЧЕСКИЕ РЕСУРСЫ</button>
+  <button ion-button block round (click)="closeWaterModal()">ВОДНО-БИОЛОГИЧЕСКИЕ РЕСУРСЫ</button>
 </ion-content>
