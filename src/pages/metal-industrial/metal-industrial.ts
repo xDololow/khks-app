@@ -1,12 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the MetalIndustrialPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { NavController, NavParams, ViewController } from 'ionic-angular';
 
 @Component({
   selector: 'page-metal-industrial',
@@ -14,9 +7,11 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class MetalIndustrialPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public viewCtrl: ViewController) {
   }
-
+  closeModal() {
+    this.viewCtrl.dismiss();
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad MetalIndustrialPage');
   }

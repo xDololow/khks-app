@@ -18,6 +18,9 @@ import { EnergIndustrialPage } from '../pages/energ-industrial/energ-industrial'
 import { MetalIndustrialPage } from '../pages/metal-industrial/metal-industrial';
 import { CoalIndustrialPage } from '../pages/coal-industrial/coal-industrial';
 import { FoodIndustrialPage } from '../pages/food-industrial/food-industrial';
+import { RailwayTransportPage } from '../pages/railway-transport/railway-transport';
+import { MotorTransportPage } from '../pages/motor-transport/motor-transport';
+import { AirTransportPage } from '../pages/air-transport/air-transport';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -41,7 +44,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EnergIndustrialPage,
     MetalIndustrialPage,
     CoalIndustrialPage,
-    FoodIndustrialPage
+    FoodIndustrialPage,
+    RailwayTransportPage,
+    MotorTransportPage,
+    AirTransportPage
   ],
   imports: [
     BrowserModule,
@@ -65,7 +71,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     EnergIndustrialPage,
     MetalIndustrialPage,
     CoalIndustrialPage,
-    FoodIndustrialPage
+    FoodIndustrialPage,
+    RailwayTransportPage,
+    MotorTransportPage,
+    AirTransportPage
   ],
   providers: [
     StatusBar,

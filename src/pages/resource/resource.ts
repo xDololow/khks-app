@@ -20,11 +20,11 @@ export class ResourcePage {
     let forestModal = this.modalCtrl.create(ForestResourcesPage);
     forestModal.present();
   }
-  closeMineralModal() {
+  openMineralModal() {
     let mineModal = this.modalCtrl.create(MineralResourcesPage);
     mineModal.present();
   }
-  closeWaterModal() {
+  openWaterModal() {
     let waterModal = this.modalCtrl.create(WaterResourcesPage);
     waterModal.present();
   }
