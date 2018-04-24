@@ -1,12 +1,7 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
-
-/**
- * Generated class for the TouristPage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import { ModalController, NavController, NavParams} from 'ionic-angular';
+import { HistoryTouristPage } from '../history-tourist/history-tourist';
+import { RecreateTouristPage } from '../recreate-tourist/recreate-tourist';
 
 @Component({
   selector: 'page-tourist',
@@ -14,9 +9,16 @@ import { NavController, NavParams } from 'ionic-angular';
 })
 export class TouristPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public modalCtrl: ModalController) {
   }
-
+  openHistoryModal() {
+    let landModal = this.modalCtrl.create(HistoryTouristPage);
+    landModal.present();
+  }
+  openRecreateModal() {
+    let landModal = this.modalCtrl.create(RecreateTouristPage);
+    landModal.present();
+  }
   ionViewDidLoad() {
     console.log('ionViewDidLoad TouristPage');
   }

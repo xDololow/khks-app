@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Apr 25 01:21:49 KRAT 2018
+#Wed Apr 25 03:21:23 KRAT 2018
 5.base=C\:\\khks-app\\khks-app\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 42.base=C\:\\khks-app\\khks-app\\platforms\\android\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_
 32.set=ASSET
