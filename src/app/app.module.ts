@@ -21,6 +21,8 @@ import { FoodIndustrialPage } from '../pages/food-industrial/food-industrial';
 import { RailwayTransportPage } from '../pages/railway-transport/railway-transport';
 import { MotorTransportPage } from '../pages/motor-transport/motor-transport';
 import { AirTransportPage } from '../pages/air-transport/air-transport';
+import { HistoryTouristPage } from '../pages/history-tourist/history-tourist';
+import { RecreateTouristPage } from '../pages/recreate-tourist/recreate-tourist';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -47,7 +49,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FoodIndustrialPage,
     RailwayTransportPage,
     MotorTransportPage,
-    AirTransportPage
+    AirTransportPage,
+    HistoryTouristPage,
+    RecreateTouristPage
   ],
   imports: [
     BrowserModule,
@@ -74,7 +78,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FoodIndustrialPage,
     RailwayTransportPage,
     MotorTransportPage,
-    AirTransportPage
+    AirTransportPage,
+    HistoryTouristPage,
+    RecreateTouristPage
   ],
   providers: [
     StatusBar,
