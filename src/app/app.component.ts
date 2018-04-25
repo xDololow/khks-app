@@ -10,6 +10,7 @@ import { TransportPage } from '../pages/transport/transport';
 import { TouristPage } from '../pages/tourist/tourist';
 import { EducationalPage } from '../pages/educational/educational';
 import { HumanPage } from '../pages/human/human';
+import { ContactsPage } from '../pages/contacts/contacts';
 
 @Component({
   templateUrl: 'app.html'
@@ -33,7 +34,8 @@ export class MyApp {
       { title: 'ТРАНСПОРТНО-ИНФРАСТРУКТУРНЫЙ ПОТЕНЦИАЛ', component: TransportPage },
       { title: 'ЭТНОКУЛЬТУРНЫЙ И ТУРИСТИЧЕСКИЙ ПОТЕНЦИАЛ', component: TouristPage },
       { title: 'НАУЧНО-ОБРАЗОВАТЕЛЬНЫЙ ПОТЕНЦИАЛ', component: EducationalPage },
-      { title: 'ЧЕЛОВЕЧЕСКИЙ ПОТЕНЦИАЛ', component: HumanPage }
+      { title: 'ЧЕЛОВЕЧЕСКИЙ ПОТЕНЦИАЛ', component: HumanPage },
+      { title: 'НАШИ КОНТАКТЫ', component: ContactsPage }
 
     ];
 

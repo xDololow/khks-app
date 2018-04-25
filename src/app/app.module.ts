@@ -23,6 +23,7 @@ import { MotorTransportPage } from '../pages/motor-transport/motor-transport';
 import { AirTransportPage } from '../pages/air-transport/air-transport';
 import { HistoryTouristPage } from '../pages/history-tourist/history-tourist';
 import { RecreateTouristPage } from '../pages/recreate-tourist/recreate-tourist';
+import { ContactsPage } from '../pages/contacts/contacts';
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -51,7 +52,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MotorTransportPage,
     AirTransportPage,
     HistoryTouristPage,
-    RecreateTouristPage
+    RecreateTouristPage,
+    ContactsPage
   ],
   imports: [
     BrowserModule,
@@ -80,7 +82,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MotorTransportPage,
     AirTransportPage,
     HistoryTouristPage,
-    RecreateTouristPage
+    RecreateTouristPage,
+    ContactsPage
   ],
   providers: [
     StatusBar,
