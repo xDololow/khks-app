@@ -55,25 +55,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 var HomePage = /** @class */ (function () {
+    /*
+    video: any = {
+      url: 'https://www.youtube.com/embed/Ry5s8EuTYHA',
+      title: 'Приглашаем в Хакасию! (КЭФ-2018)'
+    };
+  
+    trustedVideoUrl: SafeResourceUrl;
+    loading: Loading;
+    */
     function HomePage(navCtrl, loadingCtrl, domSanitizer) {
         this.navCtrl = navCtrl;
         this.loadingCtrl = loadingCtrl;
         this.domSanitizer = domSanitizer;
-        this.video = {
-            url: 'https://www.youtube.com/embed/Ry5s8EuTYHA',
-            title: 'Приглашаем в Хакасию! (КЭФ-2018)'
-        };
     }
-    HomePage.prototype.ionViewWillEnter = function () {
-        this.trustedVideoUrl = this.domSanitizer.bypassSecurityTrustResourceUrl(this.video.url);
-        this.loading = this.loadingCtrl.create({
-            content: 'Пожалуйста, подожите...'
-        });
-        this.loading.present();
-    };
-    HomePage.prototype.handleIFrameLoadEvent = function () {
-        this.loading.dismiss();
-    };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-home',template:/*ion-inline-start:"C:\khks-app\khks-app\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>О НАШЕМ РЕГИОНЕ</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding style="background-color: transparent; background-image: url(\'img/bg2.jpg\'); background-position: center; background-size: cover; background-repeat: no-repeat;">\n  <!--Ry5s8EuTYHA-->\n  <!--ion-card>\n      <iframe #iframeVideo width="100%" height="315" [src]="trustedVideoUrl ? trustedVideoUrl : null" (load)="trustedVideoUrl ? handleIFrameLoadEvent() : null" frameborder="0" allowfullscreen></iframe>\n  </ion-card-->\n  <ion-card>\n    <ion-card-header>\n      О регионе\n    </ion-card-header>\n    <img src="img/khakasiya.jpg"/>\n    <ion-card-content>\n      Хакасия расположена в Южной Сибири, в пределах левобережной части среднего течения реки Енисей, на территориях Саяно-Алтайского нагорья и Хакасско-Минусинской котловины.<br>\n      Природно-ландшафтные зоны: от полупустынь до высокогорья альпийских лугов и тундр. <br>\n    </ion-card-content>\n    <ion-card-content>\n      Протяженность территории с севера на юг – 460 км, с запада на восток (в наиболее широкой части) – 200 км. На севере, востоке и юго-востоке Хакасия граничит с Красноярским краем, на юге – с Республикой Тыва, на юго-западе – с Республикой Алтай, на западе – с Кемеровской областью.<br>\n      Площадь Республики Хакасия 61 900 км2.<br>\n    </ion-card-content>\n    <ion-card-content>\n      Территория Хакасии разделена на 8 районов. Города республиканского подчинения – Абакан, Абаза, Саяногорск, Сорск, Черногорск. Всего на территории республики 271 населенный пункт.<br>\n      Численность населения Хакасии составляет 537 тыс. человек, из них 69,4% городское, 30,6% сельское.<br>\n    </ion-card-content>\n  </ion-card>\n  <ion-card>\n    <ion-card-header>\n      История возникновения\n    </ion-card-header>\n    <img src="img/khakas2.jpg"/>\n    <ion-card-content>\n      Как предполагают ученые, предки человека поселились на территории Саяно-Алтайского нагорья свыше 300 тысяч лет назад, однако самые древние свидетельства освоения человеком пространств Хакасии соотносится с периодом, отстоящим от наших дней на 80-100 тысяч лет.<br>\n      С древнейших времен Хакасия имела караванные пути, связывающие ее с Монголией, Китаем, Тибетом и Индией. В эпоху Кыргызского каганата (VI-XIII вв.) существовала ветвь Великого шелкового пути, которая соединяла Хакасию с Тувой. Этот путь упоминался еще в древнетюркских рунических памятниках VII–VIII вв.<br>\n    </ion-card-content>\n    <ion-card-content>\n      В марте 1707 года царь Петр I подписал Указ о сооружении острога в Хакасии, который был построен за 15 дней, с 4 по 18 августа 1707 года. Это событие и знаменует начало процесса вхождения Хакасии в состав России.<br>\n      Датой же официального включения территории Хакасии в состав Российской империей можно считать 20 августа 1727 года, когда между Россией и Китаем был заключён Буринский (или Кяхтинский) пограничный трактат.<br>\n    </ion-card-content>\n  </ion-card>\n  <button ion-button secondary menuToggle>Открыть меню</button>\n</ion-content>\n'/*ion-inline-end:"C:\khks-app\khks-app\src\pages\home\home.html"*/
